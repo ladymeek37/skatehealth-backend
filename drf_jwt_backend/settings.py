@@ -165,6 +165,9 @@ MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'mediafiles')
 # URL used to access the media
 MEDIA_URL = '/media/'
 
+SECRET_KEY = 'kiy^kcoay%540)pdiTNWaAWVp-#)ndhutMMlizkpop'
+
+
 
 try:
     from drf_jwt_backend.local_settings import *
