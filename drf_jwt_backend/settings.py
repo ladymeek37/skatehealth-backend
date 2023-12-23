@@ -167,6 +167,15 @@ MEDIA_URL = '/media/'
 
 SECRET_KEY = 'kiy^kcoay%540)pdiTNWaAWVp-#)ndhutMMlizkpop'
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'mysql.connector.django',
+        'NAME': 'capstone_project_database',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': 'password',
+    }
+}
 
 
 try:
